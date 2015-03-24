@@ -1,0 +1,33 @@
+{
+  "port": 5804,
+  "address": "0.0.0.0",
+  "url": "/",
+  "cors": true,
+  "mail": {
+    "transport": {
+      "service": "Gmail",
+      "auth": {
+        "user": "you@gmail.com",
+        "pass": "your-password"
+      }
+    },
+    "options": {
+      "to": "you@gmail.com",
+      "replyTo": {
+        "engine": "handlebars",
+        "str": "{{fromName}} <{{fromEmail}}>"
+      },
+      "subject": {
+        "engine": "handlebars",
+        "str": "[Contact] {{subject}}"
+      },
+      "text": {
+        "engine": "handlebars",
+        "path": "text.hbs"
+      }
+    }
+  },
+  "recaptcha": {
+    "secret": "server-side-secret"
+  }
+}

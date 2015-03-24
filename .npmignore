@@ -1,0 +1,6 @@
+node_modules/
+bower_components/
+example/
+/mailer-webservice.json
+/*.hbs
+/mailer-webservice-*.tgz
