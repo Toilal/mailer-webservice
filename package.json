@@ -1,6 +1,6 @@
 {
   "name": "mailer-webservice",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Send emails with a micro webservice based on nodemailer and consolidate.js",
   "main": "mailer-webservice.js",
   "dependencies": {
