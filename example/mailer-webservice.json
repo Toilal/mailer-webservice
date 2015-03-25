@@ -15,11 +15,11 @@
       "to": "you@gmail.com",
       "replyTo": {
         "engine": "handlebars",
-        "str": "{{fromName}} <{{fromEmail}}>"
+        "str": "\"{{{fromName}}}\" <{{{fromEmail}}}>"
       },
       "subject": {
         "engine": "handlebars",
-        "str": "[Contact] {{subject}}"
+        "str": "[Contact] {{{subject}}}"
       },
       "text": {
         "engine": "handlebars",
