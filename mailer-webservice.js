@@ -1,4 +1,4 @@
-'use string';
+'use strict';
 
 var fs = require('fs');
 var config = JSON.parse(fs.readFileSync('./mailer-webservice.json', 'utf8'));
